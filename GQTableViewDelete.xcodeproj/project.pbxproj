@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F335CA1E701AAE00C9DC45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F335C91E701AAE00C9DC45 /* AppDelegate.swift */; };
+		18F335CC1E701AAE00C9DC45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F335CB1E701AAE00C9DC45 /* ViewController.swift */; };
+		18F335CF1E701AAE00C9DC45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F335CD1E701AAE00C9DC45 /* Main.storyboard */; };
+		18F335D11E701AAE00C9DC45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F335D01E701AAE00C9DC45 /* Assets.xcassets */; };
+		18F335D41E701AAE00C9DC45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F335D21E701AAE00C9DC45 /* LaunchScreen.storyboard */; };
+		18F335DF1E701AAE00C9DC45 /* GQTableViewDeleteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F335DE1E701AAE00C9DC45 /* GQTableViewDeleteTests.swift */; };
+		18F335EA1E701AAE00C9DC45 /* GQTableViewDeleteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F335E91E701AAE00C9DC45 /* GQTableViewDeleteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F335DB1E701AAE00C9DC45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F335BE1E701AAE00C9DC45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F335C51E701AAE00C9DC45;
+			remoteInfo = GQTableViewDelete;
+		};
+		18F335E61E701AAE00C9DC45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F335BE1E701AAE00C9DC45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F335C51E701AAE00C9DC45;
+			remoteInfo = GQTableViewDelete;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18F335C61E701AAE00C9DC45 /* GQTableViewDelete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GQTableViewDelete.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F335C91E701AAE00C9DC45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18F335CB1E701AAE00C9DC45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18F335CE1E701AAE00C9DC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F335D01E701AAE00C9DC45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F335D31E701AAE00C9DC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F335D51E701AAE00C9DC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F335DA1E701AAE00C9DC45 /* GQTableViewDeleteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GQTableViewDeleteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F335DE1E701AAE00C9DC45 /* GQTableViewDeleteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GQTableViewDeleteTests.swift; sourceTree = "<group>"; };
+		18F335E01E701AAE00C9DC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F335E51E701AAE00C9DC45 /* GQTableViewDeleteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GQTableViewDeleteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F335E91E701AAE00C9DC45 /* GQTableViewDeleteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GQTableViewDeleteUITests.swift; sourceTree = "<group>"; };
+		18F335EB1E701AAE00C9DC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F335C31E701AAE00C9DC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F335D71E701AAE00C9DC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F335E21E701AAE00C9DC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F335BD1E701AAE00C9DC45 = {
+			isa = PBXGroup;
+			children = (
+				18F335C81E701AAE00C9DC45 /* GQTableViewDelete */,
+				18F335DD1E701AAE00C9DC45 /* GQTableViewDeleteTests */,
+				18F335E81E701AAE00C9DC45 /* GQTableViewDeleteUITests */,
+				18F335C71E701AAE00C9DC45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F335C71E701AAE00C9DC45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F335C61E701AAE00C9DC45 /* GQTableViewDelete.app */,
+				18F335DA1E701AAE00C9DC45 /* GQTableViewDeleteTests.xctest */,
+				18F335E51E701AAE00C9DC45 /* GQTableViewDeleteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F335C81E701AAE00C9DC45 /* GQTableViewDelete */ = {
+			isa = PBXGroup;
+			children = (
+				18F335C91E701AAE00C9DC45 /* AppDelegate.swift */,
+				18F335CB1E701AAE00C9DC45 /* ViewController.swift */,
+				18F335CD1E701AAE00C9DC45 /* Main.storyboard */,
+				18F335D01E701AAE00C9DC45 /* Assets.xcassets */,
+				18F335D21E701AAE00C9DC45 /* LaunchScreen.storyboard */,
+				18F335D51E701AAE00C9DC45 /* Info.plist */,
+			);
+			path = GQTableViewDelete;
+			sourceTree = "<group>";
+		};
+		18F335DD1E701AAE00C9DC45 /* GQTableViewDeleteTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F335DE1E701AAE00C9DC45 /* GQTableViewDeleteTests.swift */,
+				18F335E01E701AAE00C9DC45 /* Info.plist */,
+			);
+			path = GQTableViewDeleteTests;
+			sourceTree = "<group>";
+		};
+		18F335E81E701AAE00C9DC45 /* GQTableViewDeleteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F335E91E701AAE00C9DC45 /* GQTableViewDeleteUITests.swift */,
+				18F335EB1E701AAE00C9DC45 /* Info.plist */,
+			);
+			path = GQTableViewDeleteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F335C51E701AAE00C9DC45 /* GQTableViewDelete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F335EE1E701AAE00C9DC45 /* Build configuration list for PBXNativeTarget "GQTableViewDelete" */;
+			buildPhases = (
+				18F335C21E701AAE00C9DC45 /* Sources */,
+				18F335C31E701AAE00C9DC45 /* Frameworks */,
+				18F335C41E701AAE00C9DC45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GQTableViewDelete;
+			productName = GQTableViewDelete;
+			productReference = 18F335C61E701AAE00C9DC45 /* GQTableViewDelete.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F335D91E701AAE00C9DC45 /* GQTableViewDeleteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F335F11E701AAE00C9DC45 /* Build configuration list for PBXNativeTarget "GQTableViewDeleteTests" */;
+			buildPhases = (
+				18F335D61E701AAE00C9DC45 /* Sources */,
+				18F335D71E701AAE00C9DC45 /* Frameworks */,
+				18F335D81E701AAE00C9DC45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F335DC1E701AAE00C9DC45 /* PBXTargetDependency */,
+			);
+			name = GQTableViewDeleteTests;
+			productName = GQTableViewDeleteTests;
+			productReference = 18F335DA1E701AAE00C9DC45 /* GQTableViewDeleteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18F335E41E701AAE00C9DC45 /* GQTableViewDeleteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F335F41E701AAE00C9DC45 /* Build configuration list for PBXNativeTarget "GQTableViewDeleteUITests" */;
+			buildPhases = (
+				18F335E11E701AAE00C9DC45 /* Sources */,
+				18F335E21E701AAE00C9DC45 /* Frameworks */,
+				18F335E31E701AAE00C9DC45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F335E71E701AAE00C9DC45 /* PBXTargetDependency */,
+			);
+			name = GQTableViewDeleteUITests;
+			productName = GQTableViewDeleteUITests;
+			productReference = 18F335E51E701AAE00C9DC45 /* GQTableViewDeleteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F335BE1E701AAE00C9DC45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = GQ;
+				TargetAttributes = {
+					18F335C51E701AAE00C9DC45 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					18F335D91E701AAE00C9DC45 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18F335C51E701AAE00C9DC45;
+					};
+					18F335E41E701AAE00C9DC45 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18F335C51E701AAE00C9DC45;
+					};
+				};
+			};
+			buildConfigurationList = 18F335C11E701AAE00C9DC45 /* Build configuration list for PBXProject "GQTableViewDelete" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F335BD1E701AAE00C9DC45;
+			productRefGroup = 18F335C71E701AAE00C9DC45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F335C51E701AAE00C9DC45 /* GQTableViewDelete */,
+				18F335D91E701AAE00C9DC45 /* GQTableViewDeleteTests */,
+				18F335E41E701AAE00C9DC45 /* GQTableViewDeleteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F335C41E701AAE00C9DC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F335D41E701AAE00C9DC45 /* LaunchScreen.storyboard in Resources */,
+				18F335D11E701AAE00C9DC45 /* Assets.xcassets in Resources */,
+				18F335CF1E701AAE00C9DC45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F335D81E701AAE00C9DC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F335E31E701AAE00C9DC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F335C21E701AAE00C9DC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F335CC1E701AAE00C9DC45 /* ViewController.swift in Sources */,
+				18F335CA1E701AAE00C9DC45 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F335D61E701AAE00C9DC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F335DF1E701AAE00C9DC45 /* GQTableViewDeleteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F335E11E701AAE00C9DC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F335EA1E701AAE00C9DC45 /* GQTableViewDeleteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F335DC1E701AAE00C9DC45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F335C51E701AAE00C9DC45 /* GQTableViewDelete */;
+			targetProxy = 18F335DB1E701AAE00C9DC45 /* PBXContainerItemProxy */;
+		};
+		18F335E71E701AAE00C9DC45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F335C51E701AAE00C9DC45 /* GQTableViewDelete */;
+			targetProxy = 18F335E61E701AAE00C9DC45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18F335CD1E701AAE00C9DC45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F335CE1E701AAE00C9DC45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18F335D21E701AAE00C9DC45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F335D31E701AAE00C9DC45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F335EC1E701AAE00C9DC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18F335ED1E701AAE00C9DC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F335EF1E701AAE00C9DC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GQTableViewDelete/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guoqiang.GQTableViewDelete;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18F335F01E701AAE00C9DC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GQTableViewDelete/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guoqiang.GQTableViewDelete;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		18F335F21E701AAE00C9DC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GQTableViewDeleteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guoqiang.GQTableViewDeleteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GQTableViewDelete.app/GQTableViewDelete";
+			};
+			name = Debug;
+		};
+		18F335F31E701AAE00C9DC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GQTableViewDeleteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guoqiang.GQTableViewDeleteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GQTableViewDelete.app/GQTableViewDelete";
+			};
+			name = Release;
+		};
+		18F335F51E701AAE00C9DC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GQTableViewDeleteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guoqiang.GQTableViewDeleteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GQTableViewDelete;
+			};
+			name = Debug;
+		};
+		18F335F61E701AAE00C9DC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GQTableViewDeleteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guoqiang.GQTableViewDeleteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GQTableViewDelete;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F335C11E701AAE00C9DC45 /* Build configuration list for PBXProject "GQTableViewDelete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F335EC1E701AAE00C9DC45 /* Debug */,
+				18F335ED1E701AAE00C9DC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F335EE1E701AAE00C9DC45 /* Build configuration list for PBXNativeTarget "GQTableViewDelete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F335EF1E701AAE00C9DC45 /* Debug */,
+				18F335F01E701AAE00C9DC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18F335F11E701AAE00C9DC45 /* Build configuration list for PBXNativeTarget "GQTableViewDeleteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F335F21E701AAE00C9DC45 /* Debug */,
+				18F335F31E701AAE00C9DC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18F335F41E701AAE00C9DC45 /* Build configuration list for PBXNativeTarget "GQTableViewDeleteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F335F51E701AAE00C9DC45 /* Debug */,
+				18F335F61E701AAE00C9DC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F335BE1E701AAE00C9DC45 /* Project object */;
+}
