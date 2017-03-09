@@ -14,6 +14,9 @@
 		18F335D41E701AAE00C9DC45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F335D21E701AAE00C9DC45 /* LaunchScreen.storyboard */; };
 		18F335DF1E701AAE00C9DC45 /* GQTableViewDeleteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F335DE1E701AAE00C9DC45 /* GQTableViewDeleteTests.swift */; };
 		18F335EA1E701AAE00C9DC45 /* GQTableViewDeleteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F335E91E701AAE00C9DC45 /* GQTableViewDeleteUITests.swift */; };
+		7A69BA5233C2685782EE9869 /* Pods_GQTableViewDeleteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C8E91B52CD81CA4FC44542 /* Pods_GQTableViewDeleteUITests.framework */; };
+		875AAB0F17236197D09732DC /* Pods_GQTableViewDelete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B7352F3BAB98BAEDB3C7D1 /* Pods_GQTableViewDelete.framework */; };
+		D968E4FB62AAEAAF1E181592 /* Pods_GQTableViewDeleteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947B28144C1D2E6FE998EB4E /* Pods_GQTableViewDeleteTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04C8E91B52CD81CA4FC44542 /* Pods_GQTableViewDeleteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GQTableViewDeleteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F335C61E701AAE00C9DC45 /* GQTableViewDelete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GQTableViewDelete.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F335C91E701AAE00C9DC45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18F335CB1E701AAE00C9DC45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		18F335E51E701AAE00C9DC45 /* GQTableViewDeleteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GQTableViewDeleteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F335E91E701AAE00C9DC45 /* GQTableViewDeleteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GQTableViewDeleteUITests.swift; sourceTree = "<group>"; };
 		18F335EB1E701AAE00C9DC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BAAD98306628808A4D7BF5E /* Pods-GQTableViewDelete.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GQTableViewDelete.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GQTableViewDelete/Pods-GQTableViewDelete.debug.xcconfig"; sourceTree = "<group>"; };
+		2EE6122E2B651A9A58DF0A52 /* Pods-GQTableViewDeleteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GQTableViewDeleteTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GQTableViewDeleteTests/Pods-GQTableViewDeleteTests.release.xcconfig"; sourceTree = "<group>"; };
+		36BC0E14805313843C294964 /* Pods-GQTableViewDelete.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GQTableViewDelete.release.xcconfig"; path = "Pods/Target Support Files/Pods-GQTableViewDelete/Pods-GQTableViewDelete.release.xcconfig"; sourceTree = "<group>"; };
+		8D414464031A4E4B613D41A2 /* Pods-GQTableViewDeleteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GQTableViewDeleteUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GQTableViewDeleteUITests/Pods-GQTableViewDeleteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8ECDBBF6A754F9A2568131C0 /* Pods-GQTableViewDeleteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GQTableViewDeleteUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GQTableViewDeleteUITests/Pods-GQTableViewDeleteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		947B28144C1D2E6FE998EB4E /* Pods_GQTableViewDeleteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GQTableViewDeleteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACBDE2936F8CBA950BE773F5 /* Pods-GQTableViewDeleteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GQTableViewDeleteTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GQTableViewDeleteTests/Pods-GQTableViewDeleteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4B7352F3BAB98BAEDB3C7D1 /* Pods_GQTableViewDelete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GQTableViewDelete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				875AAB0F17236197D09732DC /* Pods_GQTableViewDelete.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D968E4FB62AAEAAF1E181592 /* Pods_GQTableViewDeleteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A69BA5233C2685782EE9869 /* Pods_GQTableViewDeleteUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				18F335DD1E701AAE00C9DC45 /* GQTableViewDeleteTests */,
 				18F335E81E701AAE00C9DC45 /* GQTableViewDeleteUITests */,
 				18F335C71E701AAE00C9DC45 /* Products */,
+				469D16D18D47AD0A8B7C7C0A /* Pods */,
+				3CA7FC453EF14F9EDD0B925E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = GQTableViewDeleteUITests;
 			sourceTree = "<group>";
 		};
+		3CA7FC453EF14F9EDD0B925E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4B7352F3BAB98BAEDB3C7D1 /* Pods_GQTableViewDelete.framework */,
+				947B28144C1D2E6FE998EB4E /* Pods_GQTableViewDeleteTests.framework */,
+				04C8E91B52CD81CA4FC44542 /* Pods_GQTableViewDeleteUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		469D16D18D47AD0A8B7C7C0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BAAD98306628808A4D7BF5E /* Pods-GQTableViewDelete.debug.xcconfig */,
+				36BC0E14805313843C294964 /* Pods-GQTableViewDelete.release.xcconfig */,
+				ACBDE2936F8CBA950BE773F5 /* Pods-GQTableViewDeleteTests.debug.xcconfig */,
+				2EE6122E2B651A9A58DF0A52 /* Pods-GQTableViewDeleteTests.release.xcconfig */,
+				8ECDBBF6A754F9A2568131C0 /* Pods-GQTableViewDeleteUITests.debug.xcconfig */,
+				8D414464031A4E4B613D41A2 /* Pods-GQTableViewDeleteUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18F335EE1E701AAE00C9DC45 /* Build configuration list for PBXNativeTarget "GQTableViewDelete" */;
 			buildPhases = (
+				0CA2D2082CDC01A762CC4F28 /* [CP] Check Pods Manifest.lock */,
 				18F335C21E701AAE00C9DC45 /* Sources */,
 				18F335C31E701AAE00C9DC45 /* Frameworks */,
 				18F335C41E701AAE00C9DC45 /* Resources */,
+				E37F7A15FB5BF9C0B26FBA67 /* [CP] Embed Pods Frameworks */,
+				BF8EB30533706D4718913574 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18F335F11E701AAE00C9DC45 /* Build configuration list for PBXNativeTarget "GQTableViewDeleteTests" */;
 			buildPhases = (
+				CCE6F8675E8245778BC50495 /* [CP] Check Pods Manifest.lock */,
 				18F335D61E701AAE00C9DC45 /* Sources */,
 				18F335D71E701AAE00C9DC45 /* Frameworks */,
 				18F335D81E701AAE00C9DC45 /* Resources */,
+				8FB518C816938782ACCD8E86 /* [CP] Embed Pods Frameworks */,
+				4A1F857682D4321F1F767A08 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18F335F41E701AAE00C9DC45 /* Build configuration list for PBXNativeTarget "GQTableViewDeleteUITests" */;
 			buildPhases = (
+				BF6A533618BEF2754A22A62C /* [CP] Check Pods Manifest.lock */,
 				18F335E11E701AAE00C9DC45 /* Sources */,
 				18F335E21E701AAE00C9DC45 /* Frameworks */,
 				18F335E31E701AAE00C9DC45 /* Resources */,
+				6EA3BBC6911A49E4DC6B2E0E /* [CP] Embed Pods Frameworks */,
+				DAA6B97252BE5C814DB2B00A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CA2D2082CDC01A762CC4F28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A1F857682D4321F1F767A08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GQTableViewDeleteTests/Pods-GQTableViewDeleteTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EA3BBC6911A49E4DC6B2E0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GQTableViewDeleteUITests/Pods-GQTableViewDeleteUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FB518C816938782ACCD8E86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GQTableViewDeleteTests/Pods-GQTableViewDeleteTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF6A533618BEF2754A22A62C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF8EB30533706D4718913574 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GQTableViewDelete/Pods-GQTableViewDelete-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCE6F8675E8245778BC50495 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DAA6B97252BE5C814DB2B00A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GQTableViewDeleteUITests/Pods-GQTableViewDeleteUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E37F7A15FB5BF9C0B26FBA67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GQTableViewDelete/Pods-GQTableViewDelete-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18F335C21E701AAE00C9DC45 /* Sources */ = {
@@ -408,6 +595,7 @@
 		};
 		18F335EF1E701AAE00C9DC45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BAAD98306628808A4D7BF5E /* Pods-GQTableViewDelete.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GQTableViewDelete/Info.plist;
@@ -420,6 +608,7 @@
 		};
 		18F335F01E701AAE00C9DC45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36BC0E14805313843C294964 /* Pods-GQTableViewDelete.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GQTableViewDelete/Info.plist;
@@ -432,6 +621,7 @@
 		};
 		18F335F21E701AAE00C9DC45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACBDE2936F8CBA950BE773F5 /* Pods-GQTableViewDeleteTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +636,7 @@
 		};
 		18F335F31E701AAE00C9DC45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EE6122E2B651A9A58DF0A52 /* Pods-GQTableViewDeleteTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +651,7 @@
 		};
 		18F335F51E701AAE00C9DC45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ECDBBF6A754F9A2568131C0 /* Pods-GQTableViewDeleteUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GQTableViewDeleteUITests/Info.plist;
@@ -473,6 +665,7 @@
 		};
 		18F335F61E701AAE00C9DC45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D414464031A4E4B613D41A2 /* Pods-GQTableViewDeleteUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GQTableViewDeleteUITests/Info.plist;

@@ -1,0 +1,964 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0391C52F58405D5899790DF4290297F2 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEA23F4393572EE30AED50A651CD185 /* ConstraintItem.swift */; };
+		143BA6A72CBE774D6BCFC9C9C5133AE7 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE15693153A62AC79B129BA5FFB7C3D /* ConstraintDSL.swift */; };
+		164C3E6ACA2B1363FC2B3DBCF970AB58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		18D42BD23BBAD6C0B466E556A95B8A18 /* Pods-GQTableViewDelete-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF666D610E8533FC096F782B22C0DDC /* Pods-GQTableViewDelete-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D3E7474C180F27F6FF5E9F5A33FF0FA /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73878F9931EAA78C3DAAF7DDA048218E /* LayoutConstraint.swift */; };
+		1FD1D0FACB91F3F4E67FB1F59E8C9BF4 /* Pods-GQTableViewDelete-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D57B1F29DA939566F377FA7EDBB9D96 /* Pods-GQTableViewDelete-dummy.m */; };
+		212E2993739407A2A324AD0B5C49D4FF /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCF77FFA89397B4F19B5CD8A7BDB0A3 /* ConstraintView.swift */; };
+		252C5E7196BF6F5E7F5935B6AF0BE6F3 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC7FF80150FA3840AD57BCE994C9FAB /* ConstraintLayoutSupportDSL.swift */; };
+		297EF0091BC5253769DC27EA7B38C6A9 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CCF4DB7EFBDC070B92BFC0BC0D2C8C /* ConstraintMakerRelatable.swift */; };
+		317CFDBFCA4861CA20A84BCD83B82938 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212E2771F1CD458D21A0FB3CA1C914F3 /* ConstraintLayoutSupport.swift */; };
+		3355B664634F17399E3A66D42DBEA9D2 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597734A7EDE6E13F6D1939A7C7373CD1 /* ConstraintConfig.swift */; };
+		34885E2C6212A69465A9598C937D3950 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6167E299BA9862893D87DDBF170B70 /* ConstraintMaker.swift */; };
+		4653F60029D2F4030E0E5956C9671CA6 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8ECEBD49CA569FC524CB77465180B6 /* ConstraintMakerEditable.swift */; };
+		4931D64558A7ABD970DA2CB3501B2A9C /* Pods-GQTableViewDeleteUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79617903503B38B5C471FEB098653B69 /* Pods-GQTableViewDeleteUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A3599106A909EE805EB9B528B11427E /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737B1700C2C19AD11C2872C1C46EC8D4 /* Debugging.swift */; };
+		4AA2ECDCBE038BE21F58EFA6E4CFC6F2 /* Pods-GQTableViewDeleteUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D692D152451171A70CAB028A3E8ED8B0 /* Pods-GQTableViewDeleteUITests-dummy.m */; };
+		4CC7F089E0C6DADB38C4A3526E37A296 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2B728DCF7E9F88008827314C2AE823 /* ConstraintInsetTarget.swift */; };
+		4F7A9AC60DE377D3C64A1CEB5DED6912 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C807430C3A7B9A82E2DDD844C58759 /* ConstraintRelation.swift */; };
+		54C9586DCAD081128632214F273CBE3A /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261BC3C65CE6EBBED920977848212F6F /* ConstraintMakerPriortizable.swift */; };
+		61F69953BD47A2684E09998D29B40410 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C7DFD4E40027278BABCCCD69743B2 /* ConstraintAttributes.swift */; };
+		67C6C0EA473E45DD26A836F7366422E1 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813C2A5263E149C889A2DF40FFDD89BA /* ConstraintRelatableTarget.swift */; };
+		6C4B5FA7E2F62A1DC574941CD7234867 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446C79107F482F7B2D7E4061657DCA44 /* ConstraintLayoutGuideDSL.swift */; };
+		7439B4AF781A9057554E027736FFB727 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E855200DC6085FF07EBD87301AD370C9 /* ConstraintInsets.swift */; };
+		765FB6EEF8789656195FC3AB2F4FA147 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11295210FBB75091BE22529081A2720 /* ConstraintView+Extensions.swift */; };
+		799E47020B2D54231F6F413982644E29 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F675DF8551ECAD72F0C6D96084C6DD4 /* SnapKit-dummy.m */; };
+		806150766B79A1E5A1CBCC66DF297054 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B90EF7CA55AE01CE50EAF5C3C574CDD /* Constraint.swift */; };
+		9814904646FFF428E1F4438B04AA85A1 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B78113584563565B18CD0248D9D0A93 /* ConstraintViewDSL.swift */; };
+		99A1A1431A72A119D42E16E1AB0068EC /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1BDEFD46348EE8C41DE053AEDBFD1B /* ConstraintOffsetTarget.swift */; };
+		99ADCF9BD0156432F51738898577353E /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729DC38B02A17974FD7A7238FCB1836 /* ConstraintMultiplierTarget.swift */; };
+		AEAFD322F7839EC54A5EFB669C70FEEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B01A03410346175028585639E85FD6DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B0AD95F4ECC028FF15C43BDF32954B8C /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50BF4E341DC91F918DC3DD74CA4ADC22 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1FD5642CBF0E48D50438B8AFD9696B3 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9319AF949935BC0602093E0830E8B10 /* ConstraintConstantTarget.swift */; };
+		D081CB3384AFA21A480E7CB77E3D6DF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D71D72D4FF8138975FB4F8AE992B86A4 /* Pods-GQTableViewDeleteTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A68A53D134B29F4E4A3C9E0DB1AAD5 /* Pods-GQTableViewDeleteTests-dummy.m */; };
+		D9F6AD95803414DF0011898747EF480E /* UILayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4759EEB4180EAF3DA189AAE28199AC /* UILayoutGuide+Extensions.swift */; };
+		DDF24E9F0FF56FC364D3DC47A15660F4 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8705AFD8FF18225FA8BB0228A69E72AA /* ConstraintMakerExtendable.swift */; };
+		DFA20DABD139051FD0B050C570EFA9E0 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F0138AE8EA08984375344610BE7E1E /* ConstraintPriorityTarget.swift */; };
+		E86FBD33069BD1464BA80A05DE2385ED /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AA583273C076DD4A1EBAFDDA0E89A8 /* ConstraintMakerFinalizable.swift */; };
+		E97A116E7981E7EBC37582402F953342 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB70FEBA9EF66CAAA461E6F3F819716B /* ConstraintDescription.swift */; };
+		F0B658AE723EFED5FFC1AA4F0FF32887 /* Pods-GQTableViewDeleteTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A1C33A73B89AAA2BFF3BB10C27DD619 /* Pods-GQTableViewDeleteTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3CD4173F084F982E8CE8E47EB880125 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB21FA0A2E5B45AB133215CC241236D /* UILayoutSupport+Extensions.swift */; };
+		FD93EE94A10F6F73D8FBC601CAC796AF /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = B525F7008B3760076D71FE29C0859BDC /* ConstraintLayoutGuide.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75E4FDA16D194A36CCCF3F818B0A39DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2742187DEC07335CF79492F73C3A6ED;
+			remoteInfo = SnapKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041C7DFD4E40027278BABCCCD69743B2 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		0729DC38B02A17974FD7A7238FCB1836 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		0AB21FA0A2E5B45AB133215CC241236D /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		0F26BDDF960175EAF6B6DCBB91A299F3 /* Pods-GQTableViewDeleteUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GQTableViewDeleteUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		14426FA5248A96FBC6A531879E24CFA5 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		144AC2D5EB97574FA2B2F040CA6F3A8F /* Pods-GQTableViewDeleteTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GQTableViewDeleteTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1F2B728DCF7E9F88008827314C2AE823 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		1FF666D610E8533FC096F782B22C0DDC /* Pods-GQTableViewDelete-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GQTableViewDelete-umbrella.h"; sourceTree = "<group>"; };
+		212E2771F1CD458D21A0FB3CA1C914F3 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		2420FA23A2C0AEF3C97402B19BC287E3 /* Pods-GQTableViewDeleteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GQTableViewDeleteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		261BC3C65CE6EBBED920977848212F6F /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		2E8CB04BFFA60F41A522155000416D91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30A68A53D134B29F4E4A3C9E0DB1AAD5 /* Pods-GQTableViewDeleteTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GQTableViewDeleteTests-dummy.m"; sourceTree = "<group>"; };
+		3A1C33A73B89AAA2BFF3BB10C27DD619 /* Pods-GQTableViewDeleteTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GQTableViewDeleteTests-umbrella.h"; sourceTree = "<group>"; };
+		3A6167E299BA9862893D87DDBF170B70 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		3A900DAADDA7BA91C3E036BC5EAB1DA2 /* Pods-GQTableViewDeleteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GQTableViewDeleteTests.release.xcconfig"; sourceTree = "<group>"; };
+		3B90EF7CA55AE01CE50EAF5C3C574CDD /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		3D57B1F29DA939566F377FA7EDBB9D96 /* Pods-GQTableViewDelete-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GQTableViewDelete-dummy.m"; sourceTree = "<group>"; };
+		3FE15693153A62AC79B129BA5FFB7C3D /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		423F20F3E3D2F2C4E1EBCA80B493DA3A /* Pods_GQTableViewDeleteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GQTableViewDeleteUITests.framework; path = "Pods-GQTableViewDeleteUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		446C79107F482F7B2D7E4061657DCA44 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		47BE5756A8AB338619311FECB8920290 /* Pods-GQTableViewDelete-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GQTableViewDelete-acknowledgements.plist"; sourceTree = "<group>"; };
+		50BF4E341DC91F918DC3DD74CA4ADC22 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		597734A7EDE6E13F6D1939A7C7373CD1 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		5BC315BC0F14C18624C80B705A6B36B2 /* Pods-GQTableViewDelete-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GQTableViewDelete-frameworks.sh"; sourceTree = "<group>"; };
+		6614A7C5A1D73B215FD740662F7BFE9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CC7FF80150FA3840AD57BCE994C9FAB /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		72B75143DCA50308F3277DC0FAED9EA8 /* Pods-GQTableViewDeleteTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GQTableViewDeleteTests-resources.sh"; sourceTree = "<group>"; };
+		737B1700C2C19AD11C2872C1C46EC8D4 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		73878F9931EAA78C3DAAF7DDA048218E /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		79617903503B38B5C471FEB098653B69 /* Pods-GQTableViewDeleteUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GQTableViewDeleteUITests-umbrella.h"; sourceTree = "<group>"; };
+		7B4759EEB4180EAF3DA189AAE28199AC /* UILayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutGuide+Extensions.swift"; path = "Source/UILayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		7BEA23F4393572EE30AED50A651CD185 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		7FE59B66A2DD88D06BA3F7B48D10E2FF /* Pods-GQTableViewDelete.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GQTableViewDelete.release.xcconfig"; sourceTree = "<group>"; };
+		813C2A5263E149C889A2DF40FFDD89BA /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		8226556EEFCC53E0FA870821D54ABE8D /* Pods-GQTableViewDeleteUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GQTableViewDeleteUITests.modulemap"; sourceTree = "<group>"; };
+		8327E55D5CC4A5375C784566D996DD01 /* Pods-GQTableViewDeleteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GQTableViewDeleteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8705AFD8FF18225FA8BB0228A69E72AA /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		87CCF4DB7EFBDC070B92BFC0BC0D2C8C /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		8B78113584563565B18CD0248D9D0A93 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97F0138AE8EA08984375344610BE7E1E /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		9901A6093AD2C4F2972ABB1EA13F721A /* Pods-GQTableViewDelete.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GQTableViewDelete.debug.xcconfig"; sourceTree = "<group>"; };
+		9A3279380EF213F64CECAEAEC2991BF5 /* Pods-GQTableViewDeleteTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GQTableViewDeleteTests-frameworks.sh"; sourceTree = "<group>"; };
+		9F308C7B156B756053F2CEF50C90A23F /* Pods_GQTableViewDeleteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GQTableViewDeleteTests.framework; path = "Pods-GQTableViewDeleteTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F675DF8551ECAD72F0C6D96084C6DD4 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		9F8ECEBD49CA569FC524CB77465180B6 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		A0F504C3B3EC8033DF4DEA71DB81FA1D /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1BDEFD46348EE8C41DE053AEDBFD1B /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		B525F7008B3760076D71FE29C0859BDC /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		B60FC1A47043F6CA3A6AE6537E717963 /* Pods-GQTableViewDeleteTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GQTableViewDeleteTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B7D4645BD3C0100FB7E1B4A6FDC96E0B /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		C4C807430C3A7B9A82E2DDD844C58759 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		CA274E8C59BA433F4975D535FA594EFA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA2F455FFC1C50E53AA93651BA1CCC2E /* Pods-GQTableViewDelete-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GQTableViewDelete-resources.sh"; sourceTree = "<group>"; };
+		CB70FEBA9EF66CAAA461E6F3F819716B /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D692D152451171A70CAB028A3E8ED8B0 /* Pods-GQTableViewDeleteUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GQTableViewDeleteUITests-dummy.m"; sourceTree = "<group>"; };
+		D76AC93710BBDEEEB00F80C7A8BE4F86 /* Pods-GQTableViewDeleteUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GQTableViewDeleteUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D8AA583273C076DD4A1EBAFDDA0E89A8 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		E02FD8A57CE2CBE8D7331817FB283A57 /* Pods_GQTableViewDelete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GQTableViewDelete.framework; path = "Pods-GQTableViewDelete.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11295210FBB75091BE22529081A2720 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		E855200DC6085FF07EBD87301AD370C9 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		E885DC7A2C93B352F3CCBAF6C4F30F7F /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		EB990A480B67E181CF82A227C475E20D /* Pods-GQTableViewDeleteUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GQTableViewDeleteUITests-resources.sh"; sourceTree = "<group>"; };
+		EBCF77FFA89397B4F19B5CD8A7BDB0A3 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		EF4CF684897A7DA94C44C46CF2D3EE01 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF55DA819162E7EE0AD86E6CAC561188 /* Pods-GQTableViewDelete-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GQTableViewDelete-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4BA79BE4508759CA60BA9653A4B9C97 /* Pods-GQTableViewDelete.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GQTableViewDelete.modulemap"; sourceTree = "<group>"; };
+		F67D6AD59E001014347442CF129B67BB /* Pods-GQTableViewDeleteTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GQTableViewDeleteTests.modulemap"; sourceTree = "<group>"; };
+		F787C33BA20BB91E934E86DEC1CAEE81 /* Pods-GQTableViewDeleteUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GQTableViewDeleteUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F9319AF949935BC0602093E0830E8B10 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		FE15B804FC84CB39C3B95BD1B420C515 /* Pods-GQTableViewDeleteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GQTableViewDeleteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		781FF82EC750CC4EC5B17E9587D55C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01A03410346175028585639E85FD6DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79B4DD2E01E5D54A622CF6D351B7E2BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164C3E6ACA2B1363FC2B3DBCF970AB58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5697E22F587B4634F7DAAE2DCA7311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEAFD322F7839EC54A5EFB669C70FEEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB496FA60F4F26DCD49DF4DE44075B8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D081CB3384AFA21A480E7CB77E3D6DF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05703C849B29D1EF8195C8FE0EC6AF9E /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				3B90EF7CA55AE01CE50EAF5C3C574CDD /* Constraint.swift */,
+				041C7DFD4E40027278BABCCCD69743B2 /* ConstraintAttributes.swift */,
+				597734A7EDE6E13F6D1939A7C7373CD1 /* ConstraintConfig.swift */,
+				F9319AF949935BC0602093E0830E8B10 /* ConstraintConstantTarget.swift */,
+				CB70FEBA9EF66CAAA461E6F3F819716B /* ConstraintDescription.swift */,
+				3FE15693153A62AC79B129BA5FFB7C3D /* ConstraintDSL.swift */,
+				E855200DC6085FF07EBD87301AD370C9 /* ConstraintInsets.swift */,
+				1F2B728DCF7E9F88008827314C2AE823 /* ConstraintInsetTarget.swift */,
+				7BEA23F4393572EE30AED50A651CD185 /* ConstraintItem.swift */,
+				B525F7008B3760076D71FE29C0859BDC /* ConstraintLayoutGuide.swift */,
+				446C79107F482F7B2D7E4061657DCA44 /* ConstraintLayoutGuideDSL.swift */,
+				212E2771F1CD458D21A0FB3CA1C914F3 /* ConstraintLayoutSupport.swift */,
+				6CC7FF80150FA3840AD57BCE994C9FAB /* ConstraintLayoutSupportDSL.swift */,
+				3A6167E299BA9862893D87DDBF170B70 /* ConstraintMaker.swift */,
+				9F8ECEBD49CA569FC524CB77465180B6 /* ConstraintMakerEditable.swift */,
+				8705AFD8FF18225FA8BB0228A69E72AA /* ConstraintMakerExtendable.swift */,
+				D8AA583273C076DD4A1EBAFDDA0E89A8 /* ConstraintMakerFinalizable.swift */,
+				261BC3C65CE6EBBED920977848212F6F /* ConstraintMakerPriortizable.swift */,
+				87CCF4DB7EFBDC070B92BFC0BC0D2C8C /* ConstraintMakerRelatable.swift */,
+				0729DC38B02A17974FD7A7238FCB1836 /* ConstraintMultiplierTarget.swift */,
+				AF1BDEFD46348EE8C41DE053AEDBFD1B /* ConstraintOffsetTarget.swift */,
+				97F0138AE8EA08984375344610BE7E1E /* ConstraintPriorityTarget.swift */,
+				813C2A5263E149C889A2DF40FFDD89BA /* ConstraintRelatableTarget.swift */,
+				C4C807430C3A7B9A82E2DDD844C58759 /* ConstraintRelation.swift */,
+				EBCF77FFA89397B4F19B5CD8A7BDB0A3 /* ConstraintView.swift */,
+				E11295210FBB75091BE22529081A2720 /* ConstraintView+Extensions.swift */,
+				8B78113584563565B18CD0248D9D0A93 /* ConstraintViewDSL.swift */,
+				737B1700C2C19AD11C2872C1C46EC8D4 /* Debugging.swift */,
+				73878F9931EAA78C3DAAF7DDA048218E /* LayoutConstraint.swift */,
+				7B4759EEB4180EAF3DA189AAE28199AC /* UILayoutGuide+Extensions.swift */,
+				0AB21FA0A2E5B45AB133215CC241236D /* UILayoutSupport+Extensions.swift */,
+				458932A7F6390E9028454F0A27A50A13 /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		430AC228522E918176919F551A92C11E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3EC349D4AB7A91D47B79DF57989C46A /* Pods-GQTableViewDelete */,
+				4E2841DB07FCCAE212994B53E57BBE44 /* Pods-GQTableViewDeleteTests */,
+				C49C7EBA0ACE627C59A5B16FD1EE57B0 /* Pods-GQTableViewDeleteUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		458932A7F6390E9028454F0A27A50A13 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA274E8C59BA433F4975D535FA594EFA /* Info.plist */,
+				B7D4645BD3C0100FB7E1B4A6FDC96E0B /* SnapKit.modulemap */,
+				E885DC7A2C93B352F3CCBAF6C4F30F7F /* SnapKit.xcconfig */,
+				9F675DF8551ECAD72F0C6D96084C6DD4 /* SnapKit-dummy.m */,
+				14426FA5248A96FBC6A531879E24CFA5 /* SnapKit-prefix.pch */,
+				50BF4E341DC91F918DC3DD74CA4ADC22 /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		4E2841DB07FCCAE212994B53E57BBE44 /* Pods-GQTableViewDeleteTests */ = {
+			isa = PBXGroup;
+			children = (
+				6614A7C5A1D73B215FD740662F7BFE9F /* Info.plist */,
+				F67D6AD59E001014347442CF129B67BB /* Pods-GQTableViewDeleteTests.modulemap */,
+				B60FC1A47043F6CA3A6AE6537E717963 /* Pods-GQTableViewDeleteTests-acknowledgements.markdown */,
+				144AC2D5EB97574FA2B2F040CA6F3A8F /* Pods-GQTableViewDeleteTests-acknowledgements.plist */,
+				30A68A53D134B29F4E4A3C9E0DB1AAD5 /* Pods-GQTableViewDeleteTests-dummy.m */,
+				9A3279380EF213F64CECAEAEC2991BF5 /* Pods-GQTableViewDeleteTests-frameworks.sh */,
+				72B75143DCA50308F3277DC0FAED9EA8 /* Pods-GQTableViewDeleteTests-resources.sh */,
+				3A1C33A73B89AAA2BFF3BB10C27DD619 /* Pods-GQTableViewDeleteTests-umbrella.h */,
+				2420FA23A2C0AEF3C97402B19BC287E3 /* Pods-GQTableViewDeleteTests.debug.xcconfig */,
+				3A900DAADDA7BA91C3E036BC5EAB1DA2 /* Pods-GQTableViewDeleteTests.release.xcconfig */,
+			);
+			name = "Pods-GQTableViewDeleteTests";
+			path = "Target Support Files/Pods-GQTableViewDeleteTests";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FCB3E800ADEFE141C46C6B85E298DF53 /* Pods */,
+				9D8FDE144256D01FA5B9A1299EFDF801 /* Products */,
+				430AC228522E918176919F551A92C11E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9D8FDE144256D01FA5B9A1299EFDF801 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E02FD8A57CE2CBE8D7331817FB283A57 /* Pods_GQTableViewDelete.framework */,
+				9F308C7B156B756053F2CEF50C90A23F /* Pods_GQTableViewDeleteTests.framework */,
+				423F20F3E3D2F2C4E1EBCA80B493DA3A /* Pods_GQTableViewDeleteUITests.framework */,
+				A0F504C3B3EC8033DF4DEA71DB81FA1D /* SnapKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3EC349D4AB7A91D47B79DF57989C46A /* Pods-GQTableViewDelete */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CF684897A7DA94C44C46CF2D3EE01 /* Info.plist */,
+				F4BA79BE4508759CA60BA9653A4B9C97 /* Pods-GQTableViewDelete.modulemap */,
+				EF55DA819162E7EE0AD86E6CAC561188 /* Pods-GQTableViewDelete-acknowledgements.markdown */,
+				47BE5756A8AB338619311FECB8920290 /* Pods-GQTableViewDelete-acknowledgements.plist */,
+				3D57B1F29DA939566F377FA7EDBB9D96 /* Pods-GQTableViewDelete-dummy.m */,
+				5BC315BC0F14C18624C80B705A6B36B2 /* Pods-GQTableViewDelete-frameworks.sh */,
+				CA2F455FFC1C50E53AA93651BA1CCC2E /* Pods-GQTableViewDelete-resources.sh */,
+				1FF666D610E8533FC096F782B22C0DDC /* Pods-GQTableViewDelete-umbrella.h */,
+				9901A6093AD2C4F2972ABB1EA13F721A /* Pods-GQTableViewDelete.debug.xcconfig */,
+				7FE59B66A2DD88D06BA3F7B48D10E2FF /* Pods-GQTableViewDelete.release.xcconfig */,
+			);
+			name = "Pods-GQTableViewDelete";
+			path = "Target Support Files/Pods-GQTableViewDelete";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C49C7EBA0ACE627C59A5B16FD1EE57B0 /* Pods-GQTableViewDeleteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E8CB04BFFA60F41A522155000416D91 /* Info.plist */,
+				8226556EEFCC53E0FA870821D54ABE8D /* Pods-GQTableViewDeleteUITests.modulemap */,
+				0F26BDDF960175EAF6B6DCBB91A299F3 /* Pods-GQTableViewDeleteUITests-acknowledgements.markdown */,
+				D76AC93710BBDEEEB00F80C7A8BE4F86 /* Pods-GQTableViewDeleteUITests-acknowledgements.plist */,
+				D692D152451171A70CAB028A3E8ED8B0 /* Pods-GQTableViewDeleteUITests-dummy.m */,
+				F787C33BA20BB91E934E86DEC1CAEE81 /* Pods-GQTableViewDeleteUITests-frameworks.sh */,
+				EB990A480B67E181CF82A227C475E20D /* Pods-GQTableViewDeleteUITests-resources.sh */,
+				79617903503B38B5C471FEB098653B69 /* Pods-GQTableViewDeleteUITests-umbrella.h */,
+				FE15B804FC84CB39C3B95BD1B420C515 /* Pods-GQTableViewDeleteUITests.debug.xcconfig */,
+				8327E55D5CC4A5375C784566D996DD01 /* Pods-GQTableViewDeleteUITests.release.xcconfig */,
+			);
+			name = "Pods-GQTableViewDeleteUITests";
+			path = "Target Support Files/Pods-GQTableViewDeleteUITests";
+			sourceTree = "<group>";
+		};
+		FCB3E800ADEFE141C46C6B85E298DF53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05703C849B29D1EF8195C8FE0EC6AF9E /* SnapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2313D90A0EA88BBD96B34982A0F7ED93 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4931D64558A7ABD970DA2CB3501B2A9C /* Pods-GQTableViewDeleteUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9619F6C018C09D959FF1ACDD0A5DF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B658AE723EFED5FFC1AA4F0FF32887 /* Pods-GQTableViewDeleteTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40584CCA65D54365FFA08A35E6BB0C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0AD95F4ECC028FF15C43BDF32954B8C /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA012B4ACCC872A4A45097A35031623 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D42BD23BBAD6C0B466E556A95B8A18 /* Pods-GQTableViewDelete-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B1B54F262ACFE1D79BAB91FFB17C2ABB /* Pods-GQTableViewDelete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CCF30373A71266AC9D48D1AF8E404D8 /* Build configuration list for PBXNativeTarget "Pods-GQTableViewDelete" */;
+			buildPhases = (
+				D3018E7B0A626844B4576DC58C3E72CA /* Sources */,
+				EB496FA60F4F26DCD49DF4DE44075B8C /* Frameworks */,
+				FEA012B4ACCC872A4A45097A35031623 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58AC93614660DD611AF79FC1883F4562 /* PBXTargetDependency */,
+			);
+			name = "Pods-GQTableViewDelete";
+			productName = "Pods-GQTableViewDelete";
+			productReference = E02FD8A57CE2CBE8D7331817FB283A57 /* Pods_GQTableViewDelete.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFF8BDD8004CC19384DA054374420A24 /* Pods-GQTableViewDeleteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F06698E24938607A4C5F9828C4E8345 /* Build configuration list for PBXNativeTarget "Pods-GQTableViewDeleteUITests" */;
+			buildPhases = (
+				843110BF9AA63F776A897A12CB9CC382 /* Sources */,
+				79B4DD2E01E5D54A622CF6D351B7E2BC /* Frameworks */,
+				2313D90A0EA88BBD96B34982A0F7ED93 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GQTableViewDeleteUITests";
+			productName = "Pods-GQTableViewDeleteUITests";
+			productReference = 423F20F3E3D2F2C4E1EBCA80B493DA3A /* Pods_GQTableViewDeleteUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2742187DEC07335CF79492F73C3A6ED /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78D7D9DF083D753EA2E176A2F5EA993 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				68A6D7FE90C781116F5994CDBD376EEF /* Sources */,
+				781FF82EC750CC4EC5B17E9587D55C5A /* Frameworks */,
+				F40584CCA65D54365FFA08A35E6BB0C3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = A0F504C3B3EC8033DF4DEA71DB81FA1D /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ECFACC3E6D78B3BC9635705BA5695570 /* Pods-GQTableViewDeleteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF2D2691B00999D8F6881B75E2055A70 /* Build configuration list for PBXNativeTarget "Pods-GQTableViewDeleteTests" */;
+			buildPhases = (
+				91F55E9F3E31B7093A59C74130ACB198 /* Sources */,
+				9A5697E22F587B4634F7DAAE2DCA7311 /* Frameworks */,
+				AA9619F6C018C09D959FF1ACDD0A5DF8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GQTableViewDeleteTests";
+			productName = "Pods-GQTableViewDeleteTests";
+			productReference = 9F308C7B156B756053F2CEF50C90A23F /* Pods_GQTableViewDeleteTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9D8FDE144256D01FA5B9A1299EFDF801 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1B54F262ACFE1D79BAB91FFB17C2ABB /* Pods-GQTableViewDelete */,
+				ECFACC3E6D78B3BC9635705BA5695570 /* Pods-GQTableViewDeleteTests */,
+				BFF8BDD8004CC19384DA054374420A24 /* Pods-GQTableViewDeleteUITests */,
+				E2742187DEC07335CF79492F73C3A6ED /* SnapKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68A6D7FE90C781116F5994CDBD376EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806150766B79A1E5A1CBCC66DF297054 /* Constraint.swift in Sources */,
+				61F69953BD47A2684E09998D29B40410 /* ConstraintAttributes.swift in Sources */,
+				3355B664634F17399E3A66D42DBEA9D2 /* ConstraintConfig.swift in Sources */,
+				B1FD5642CBF0E48D50438B8AFD9696B3 /* ConstraintConstantTarget.swift in Sources */,
+				E97A116E7981E7EBC37582402F953342 /* ConstraintDescription.swift in Sources */,
+				143BA6A72CBE774D6BCFC9C9C5133AE7 /* ConstraintDSL.swift in Sources */,
+				7439B4AF781A9057554E027736FFB727 /* ConstraintInsets.swift in Sources */,
+				4CC7F089E0C6DADB38C4A3526E37A296 /* ConstraintInsetTarget.swift in Sources */,
+				0391C52F58405D5899790DF4290297F2 /* ConstraintItem.swift in Sources */,
+				FD93EE94A10F6F73D8FBC601CAC796AF /* ConstraintLayoutGuide.swift in Sources */,
+				6C4B5FA7E2F62A1DC574941CD7234867 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				317CFDBFCA4861CA20A84BCD83B82938 /* ConstraintLayoutSupport.swift in Sources */,
+				252C5E7196BF6F5E7F5935B6AF0BE6F3 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				34885E2C6212A69465A9598C937D3950 /* ConstraintMaker.swift in Sources */,
+				4653F60029D2F4030E0E5956C9671CA6 /* ConstraintMakerEditable.swift in Sources */,
+				DDF24E9F0FF56FC364D3DC47A15660F4 /* ConstraintMakerExtendable.swift in Sources */,
+				E86FBD33069BD1464BA80A05DE2385ED /* ConstraintMakerFinalizable.swift in Sources */,
+				54C9586DCAD081128632214F273CBE3A /* ConstraintMakerPriortizable.swift in Sources */,
+				297EF0091BC5253769DC27EA7B38C6A9 /* ConstraintMakerRelatable.swift in Sources */,
+				99ADCF9BD0156432F51738898577353E /* ConstraintMultiplierTarget.swift in Sources */,
+				99A1A1431A72A119D42E16E1AB0068EC /* ConstraintOffsetTarget.swift in Sources */,
+				DFA20DABD139051FD0B050C570EFA9E0 /* ConstraintPriorityTarget.swift in Sources */,
+				67C6C0EA473E45DD26A836F7366422E1 /* ConstraintRelatableTarget.swift in Sources */,
+				4F7A9AC60DE377D3C64A1CEB5DED6912 /* ConstraintRelation.swift in Sources */,
+				765FB6EEF8789656195FC3AB2F4FA147 /* ConstraintView+Extensions.swift in Sources */,
+				212E2993739407A2A324AD0B5C49D4FF /* ConstraintView.swift in Sources */,
+				9814904646FFF428E1F4438B04AA85A1 /* ConstraintViewDSL.swift in Sources */,
+				4A3599106A909EE805EB9B528B11427E /* Debugging.swift in Sources */,
+				1D3E7474C180F27F6FF5E9F5A33FF0FA /* LayoutConstraint.swift in Sources */,
+				799E47020B2D54231F6F413982644E29 /* SnapKit-dummy.m in Sources */,
+				D9F6AD95803414DF0011898747EF480E /* UILayoutGuide+Extensions.swift in Sources */,
+				F3CD4173F084F982E8CE8E47EB880125 /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843110BF9AA63F776A897A12CB9CC382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA2ECDCBE038BE21F58EFA6E4CFC6F2 /* Pods-GQTableViewDeleteUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F55E9F3E31B7093A59C74130ACB198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71D72D4FF8138975FB4F8AE992B86A4 /* Pods-GQTableViewDeleteTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3018E7B0A626844B4576DC58C3E72CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD1D0FACB91F3F4E67FB1F59E8C9BF4 /* Pods-GQTableViewDelete-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58AC93614660DD611AF79FC1883F4562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = E2742187DEC07335CF79492F73C3A6ED /* SnapKit */;
+			targetProxy = 75E4FDA16D194A36CCCF3F818B0A39DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23AC7BBDE224148E41F48C45C61441A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2420FA23A2C0AEF3C97402B19BC287E3 /* Pods-GQTableViewDeleteTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GQTableViewDeleteTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GQTableViewDeleteTests/Pods-GQTableViewDeleteTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GQTableViewDeleteTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		388C3EA69432F2C124269F916C220396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E885DC7A2C93B352F3CCBAF6C4F30F7F /* SnapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39DD04AA7D035CB3018B39EFCD5E4C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E885DC7A2C93B352F3CCBAF6C4F30F7F /* SnapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43C53AD418D963BCD18C270804C5E185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE59B66A2DD88D06BA3F7B48D10E2FF /* Pods-GQTableViewDelete.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GQTableViewDelete/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GQTableViewDelete/Pods-GQTableViewDelete.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GQTableViewDelete;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6491C3BD6FED4025FA6FB7846CD16872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8327E55D5CC4A5375C784566D996DD01 /* Pods-GQTableViewDeleteUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GQTableViewDeleteUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GQTableViewDeleteUITests/Pods-GQTableViewDeleteUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GQTableViewDeleteUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1E48A7B33C7799B3D528C29FE0A5485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE15B804FC84CB39C3B95BD1B420C515 /* Pods-GQTableViewDeleteUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GQTableViewDeleteUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GQTableViewDeleteUITests/Pods-GQTableViewDeleteUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GQTableViewDeleteUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFA06D36BF7EA82DF6F1740F20E023F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A900DAADDA7BA91C3E036BC5EAB1DA2 /* Pods-GQTableViewDeleteTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GQTableViewDeleteTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GQTableViewDeleteTests/Pods-GQTableViewDeleteTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GQTableViewDeleteTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8E1CEA6954039E4942DE4CBB991EFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9901A6093AD2C4F2972ABB1EA13F721A /* Pods-GQTableViewDelete.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GQTableViewDelete/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GQTableViewDelete/Pods-GQTableViewDelete.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GQTableViewDelete;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CCF30373A71266AC9D48D1AF8E404D8 /* Build configuration list for PBXNativeTarget "Pods-GQTableViewDelete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E1CEA6954039E4942DE4CBB991EFE1 /* Debug */,
+				43C53AD418D963BCD18C270804C5E185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F06698E24938607A4C5F9828C4E8345 /* Build configuration list for PBXNativeTarget "Pods-GQTableViewDeleteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E48A7B33C7799B3D528C29FE0A5485 /* Debug */,
+				6491C3BD6FED4025FA6FB7846CD16872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF2D2691B00999D8F6881B75E2055A70 /* Build configuration list for PBXNativeTarget "Pods-GQTableViewDeleteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23AC7BBDE224148E41F48C45C61441A7 /* Debug */,
+				DFA06D36BF7EA82DF6F1740F20E023F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78D7D9DF083D753EA2E176A2F5EA993 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DD04AA7D035CB3018B39EFCD5E4C54 /* Debug */,
+				388C3EA69432F2C124269F916C220396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
